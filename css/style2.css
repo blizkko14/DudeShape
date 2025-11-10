@@ -1,0 +1,130 @@
+.container {
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.grow {
+  width: 100%;
+}
+.popular__furniture__title {
+  color: rgba(36, 36, 36, 1);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0 0 20px 0;
+}
+.par4 {
+  color: rgba(56, 55, 56, 1);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+  max-width: 820px;
+}
+.popular__furniture__wrapper__text {
+  margin-bottom: 80px;
+}
+.cards_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  flex-grow: 1;
+}
+/* @media(max-width:992px){
+  .cards_list{
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: flex-start; 
+    flex: 0 0 380px;  
+  }
+} */
+.card__furniture {
+  box-shadow: 0px 13px 26px 0px rgba(0, 0, 0, 0.07);
+  background: rgba(255, 255, 255, 1);
+  box-sizing: border-box;
+  width: 380px;
+  flex-grow: 1;
+  flex-basis: 380px;
+  flex-shrink: 1;
+}
+.name_product {
+  color: rgba(36, 36, 36, 1);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.costs {
+  color: rgba(21, 68, 68, 1);
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0%;
+  text-align: left;
+  
+}
+.buy_now {
+  color: rgba(255, 255, 255, 1);
+
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 6px 15px;
+  background-color: rgba(36, 77, 77, 1);
+}
+.popular__furniture__wrapper {
+  margin: 140px 0;
+}
+.cl_3 {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 24px 26px 24px;
+}
+.cl_1 {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 21px 0;
+  justify-content: space-between;
+}
+.cl_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cl {
+  display: flex;
+  gap: 0 8px;
+}
+.like {
+  border-radius: 50%;
+  background: rgba(236, 244, 255, 1);
+  width: 26px;
+  height: 26px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.follow {
+  border-radius: 50%;
+  background: rgba(236, 244, 255, 1);
+  width: 26px;
+  height: 26px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
