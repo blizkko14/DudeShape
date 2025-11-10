@@ -240,7 +240,7 @@
   background-color: rgba(36, 77, 77, 1);
 }
 .popular__furniture__wrapper {
-  margin: 140px 0;
+  margin: 140px 0 0 0;
 }
 .cl_3 {
   display: flex;
@@ -291,6 +291,9 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+.all__furniture__wrapper{
+  margin-top: 140px;
 }
 .all__furniture__title {
   color: rgba(36, 36, 36, 1);
@@ -388,6 +391,7 @@
 .text__customers {
   display: flex;
   flex-direction: column;
+   justify-content: center;
 }
 .customers__title {
   color: rgba(36, 36, 36, 1);
@@ -397,7 +401,8 @@
   line-height: 48px;
   letter-spacing: 0%;
   text-align: left;
-  margin: 105px 0 20px 0;
+  margin-bottom: 20px;
+ 
 }
 .par6 {
   color: rgba(56, 55, 56, 1);
@@ -424,11 +429,12 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 10px;
 }
 .str {
   display: flex;
   flex-direction: column;
-  padding: 5px 0 5px 10px;
+
 }
 
 .star {
@@ -517,6 +523,7 @@ footer {
 .columns_1 {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .col1 {
   display: flex;
@@ -726,6 +733,7 @@ footer {
   .about__as__wrapper {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 70px;
   }
   .about__us__title {
     display: flex;
@@ -759,7 +767,7 @@ footer {
   .container {
     max-width: 788px;
   }
-  .img8 {
+  .im1 {
     justify-content: center;
     display: flex;
     width: 100%;
@@ -772,6 +780,7 @@ footer {
   .customers__wrapper {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 70px;
   }
   .customers__title {
     text-align: center;
@@ -813,10 +822,7 @@ footer {
     padding: 40px 0;
     gap: 50px;
   }
-  .col1 {
-    flex: 1 1 auto;
-    padding-right: 0;
-  }
+  
   .col2{
   flex: 1 1 auto;
   }
@@ -828,4 +834,20 @@ footer {
             flex: 1 1 auto;
         padding-right: 0;
   }
+  .partner{
+    margin-top: 70px;
+  }
+  .popular__furniture__wrapper{
+    margin-top: 70px;
+  }
+  .subscribe__wrapper {
+    margin-top: 70px;
+  }
+  .all__furniture__wrapper{
+  margin-top: 70px ;
+  }
+.col1{
+flex: 1 1 auto;
+    padding-right: 0;
+    }
 }
