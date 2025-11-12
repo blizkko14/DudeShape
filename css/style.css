@@ -120,7 +120,7 @@
   line-height: 40px;
   letter-spacing: 0%;
   text-align: left;
-  padding: 0 29px 20px 0;
+  margin-bottom: 20px;
 }
 .par2 {
   color: rgba(68, 68, 68, 1);
@@ -141,7 +141,7 @@
   line-height: 26px;
   letter-spacing: 0%;
   text-align: left;
-  padding: 0 177px 14px 0;
+  margin-bottom: 14px;
 }
 .par3 {
   color: rgba(56, 55, 56, 1);
@@ -151,7 +151,6 @@
   line-height: 26px;
   letter-spacing: 0%;
   text-align: left;
-  padding: 0 0 30px 0;
 }
 
 .value {
@@ -162,10 +161,10 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  margin-bottom: 30px;
+  gap: 28px;
 }
-.img3 {
-  padding: 0 28px 42px 0;
-}
+
 .popular__furniture__title {
   color: rgba(36, 36, 36, 1);
   font-family: Montserrat;
@@ -174,7 +173,7 @@
   line-height: 52px;
   letter-spacing: 0%;
   text-align: left;
-  padding: 0 0 20px 0;
+  margin-bottom: 20px;
 }
 .par4 {
   color: rgba(56, 55, 56, 1);
@@ -292,7 +291,7 @@
   top: 50%;
   transform: translate(-50%, -50%);
 }
-.all__furniture__wrapper{
+.all__furniture__wrapper {
   margin-top: 140px;
 }
 .all__furniture__title {
@@ -341,14 +340,16 @@
 }
 .al__block {
   display: flex;
-  justify-content: row;
-
+  justify-content: space-between;
   flex-wrap: wrap;
+
 }
 .al__rooms {
   display: flex;
   flex-wrap: wrap;
   gap: 33px 30px;
+  flex: 0 1 474px;
+  margin: 40px 0 32px 136px;
 }
 .room:hover {
   background-color: rgba(21, 68, 68, 1);
@@ -391,7 +392,7 @@
 .text__customers {
   display: flex;
   flex-direction: column;
-   justify-content: center;
+  justify-content: center;
 }
 .customers__title {
   color: rgba(36, 36, 36, 1);
@@ -402,7 +403,6 @@
   letter-spacing: 0%;
   text-align: left;
   margin-bottom: 20px;
- 
 }
 .par6 {
   color: rgba(56, 55, 56, 1);
@@ -434,7 +434,6 @@
 .str {
   display: flex;
   flex-direction: column;
-
 }
 
 .star {
@@ -446,26 +445,27 @@
   flex-direction: row;
   align-items: center;
 }
-.elements {
-  padding: 0 0 56px 0;
-}
+
 .subscribe__wrapper {
-  margin: 140px 0 0 0;
   background: #f4f6f6;
   padding: 68px 20px 55px;
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: 140px;
 }
 
 .subscribe_title {
-  color: rgba(34, 34, 34, 1);
+  color: #222;
+  text-align: center;
   font-family: Montserrat;
   font-size: 32px;
+  font-style: normal;
   font-weight: 700;
   line-height: 48px;
-  letter-spacing: 0%;
-  text-align: center;
+  margin-bottom: 20px;
+  max-width: 605px;
 }
 .par8 {
   color: #222;
@@ -478,7 +478,13 @@
   margin-bottom: 40px;
   max-width: 493px;
 }
-
+.subscribe_input {
+  background: #fff;
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 471px;
+}
 .impt {
   flex-grow: 1;
   background: rgba(255, 255, 255, 1);
@@ -493,6 +499,7 @@
   border: 1px solid #ffffff;
   padding: 7px 20px 8px 18px;
   background: rgba(255, 255, 255, 1);
+  max-height: 67px;
 }
 .regs {
   background: rgba(48, 95, 100, 1);
@@ -509,7 +516,7 @@
   padding: 15px 32px 15px 31px;
 }
 .post {
-  margin: 0 12px 0 0;
+  margin: 0 12px 0 18px;
 }
 .footer__wrapper {
   margin: 140px 0 0 0;
@@ -524,6 +531,7 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 20px 120px;
 }
 .col1 {
   display: flex;
@@ -590,7 +598,6 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: left;
-  margin: 0 100px 0 157px;
 }
 .val_col {
   color: rgba(255, 255, 255, 1);
@@ -629,7 +636,6 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: left;
-  margin: 0 109px 0 0;
   max-width: 253px;
 }
 .list_co3 {
@@ -660,12 +666,14 @@ footer {
   letter-spacing: 0%;
   text-align: left;
   margin: 14px 0 13px 22px;
+  
 }
 .input__1 {
   display: flex;
   justify-content: space-around;
   background: #ffffff;
   align-items: center;
+  width: 100%;
 }
 .send {
   display: flex;
@@ -703,11 +711,13 @@ footer {
   .menuu {
     display: flex;
   }
-
+  .img1 {
+    display: none;
+  }
   .Text {
     display: flex;
     justify-content: center;
-    padding: 50px 20px 50px 20px;
+    padding: 101px 18px;
   }
   .about__company__title {
     text-align: center;
@@ -762,6 +772,13 @@ footer {
   .al__rooms {
     display: flex;
     flex-direction: row;
+    flex-flow: row-reverse;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0;
+    flex: 0 0 100%;
+    margin-top: 50px;
+    justify-content: center;
   }
 
   .container {
@@ -819,35 +836,65 @@ footer {
     text-align: -webkit-center;
   }
   .footer__wrapper {
+    flex-wrap: wrap;
     padding: 40px 0;
     gap: 50px;
   }
-  
-  .col2{
-  flex: 1 1 auto;
-  }
-  .col3{
-            flex: 1 1 auto;
 
+  .col2 {
+    flex: 1 1 auto;
   }
-  .col4{
-            flex: 1 1 auto;
-        padding-right: 0;
+  .col3 {
+    flex: 1 1 auto;
   }
-  .partner{
+  .col4 {
+    flex: 1 1 auto;
+    padding-right: 0;
+  }
+  .partner {
     margin-top: 70px;
   }
-  .popular__furniture__wrapper{
+  .popular__furniture__wrapper {
     margin-top: 70px;
   }
   .subscribe__wrapper {
     margin-top: 70px;
   }
-  .all__furniture__wrapper{
-  margin-top: 70px ;
+  .subscribe_input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #f4f6f6;
   }
-.col1{
-flex: 1 1 auto;
+
+  .all__furniture__wrapper {
+    margin-top: 70px;
+  }
+  .col1 {
+    flex: 1 1 auto;
     padding-right: 0;
-    }
+  }
+  .im2 {
+    display: flex;
+    align-items: center;
+    flex: initial;
+  }
+  .img8 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .im3 {
+    width: 100%;
+  }
+  .soc {
+    margin-bottom: 30px;
+  }
+  .list_co2 {
+    margin-bottom: 20px;
+  }
+  .all__furniture__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
